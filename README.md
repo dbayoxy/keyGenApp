@@ -17,10 +17,10 @@ Grey Level Co-occurrence Matrix was used for extracting-
 3.	Convert the image into a matrix [20, n]. n is number of column in the image matrix
 4.	Specify the distance between neighbouring pixels, r.
 5.	Specify the angle, D of the gray level co-occurrence matrix.
-i.	If D = 900 then set offset = r*[-1 0]
-ii.	If D =  450 then set offset = r*[-1 1]
-iii.	If D = 1350 then set offset = r*[-1 –1]
-iv.	If D = 00 then set offset = r*[0 1]
+i.	If D = 90 then set offset = r*[-1 0]
+ii.	If D =  45 then set offset = r*[-1 1]
+iii.	If D = 135 then set offset = r*[-1 –1]
+iv.	If D = 0 then set offset = r*[0 1]
 6.	Find the trace of the matrix (sum of the diagonal of the matrix)
 7.	Compute other image descriptor values (Contrast, Correlation, Energy, Entropy, Homogeneity)  
 8.	Set k = Trace * Contrast * Correlation * Energy *  Entropy * Homogeneity;
