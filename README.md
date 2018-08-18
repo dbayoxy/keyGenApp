@@ -1,14 +1,14 @@
 # keyGenApp
 Key generation from image features
 
-The Lib folder contains the .dll created from Matlab
+The Lib folder contains the .dll created from Matlab.
 The dll was created because it was difficult accessing image processing toolbox funtionalities outside Matlab, so all the image processessing methods I created in Matlab are accessible via this dll
 
-Grey Level Co-occurrence Matrix was used for extracting 
- contrast
- entropy
- uniformity
- homogeneity
+Grey Level Co-occurrence Matrix was used for extracting-
+ contrast,
+ entropy,
+ uniformity,
+ homogeneity,and
  correlation
  
  Algorithm for key generation 
